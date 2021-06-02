@@ -22,7 +22,7 @@ class StockCheckController extends AbstractController
     } */
     public function __invoke(Laptop $data)
     {
-        var_dump($data);die;
+        return $data;
     }
     
 }
